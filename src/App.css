@@ -1,0 +1,59 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3730a3;
+}
+
+.resultado {
+  margin: 20px 0;
+  padding: 15px;
+  background: #000000;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+table th {
+  background: #4f46e5;
+  color: white;
+}
